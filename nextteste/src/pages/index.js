@@ -1,17 +1,15 @@
-import Head from 'next/head'
+import Link from 'next/link';
 
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title></title>
-      </Head>
-      <main>
+       
         <h1>
           home page
         </h1>
-      </main>
+        <Link href="/about">clique</Link>
+
     </div>
   )
 } 
